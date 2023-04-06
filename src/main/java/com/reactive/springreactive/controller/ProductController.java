@@ -1,7 +1,7 @@
-package com.finastra.springreactive.controller;
+package com.reactive.springreactive.controller;
 
-import com.finastra.springreactive.entity.Product;
-import com.finastra.springreactive.service.ProductService;
+import com.reactive.springreactive.entity.Product;
+import com.reactive.springreactive.service.ProductService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

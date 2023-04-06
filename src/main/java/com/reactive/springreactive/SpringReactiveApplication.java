@@ -1,4 +1,4 @@
-package com.finastra.springreactive;
+package com.reactive.springreactive;
 
 import io.r2dbc.spi.ConnectionFactory;
 import org.springframework.boot.SpringApplication;

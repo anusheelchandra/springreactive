@@ -1,4 +1,4 @@
-package com.finastra.springreactive.entity;
+package com.reactive.springreactive.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

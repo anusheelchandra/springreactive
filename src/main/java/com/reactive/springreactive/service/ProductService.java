@@ -1,7 +1,7 @@
-package com.finastra.springreactive.service;
+package com.reactive.springreactive.service;
 
-import com.finastra.springreactive.entity.Product;
-import com.finastra.springreactive.repository.ProductRepository;
+import com.reactive.springreactive.entity.Product;
+import com.reactive.springreactive.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
