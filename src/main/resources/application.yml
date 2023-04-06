@@ -1,0 +1,7 @@
+server:
+  port: 9090
+spring:
+  r2dbc:
+    url: r2dbc:pool:postgres://localhost:5432/productdb
+    username: testuser
+    password: testpass

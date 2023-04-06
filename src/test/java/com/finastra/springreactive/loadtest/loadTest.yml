@@ -1,0 +1,19 @@
+config:
+  target: "http://localhost:9090"
+  phases:
+    - duration: 10
+      arrivalRate: 5
+      name: Warm up
+    - duration: 20
+      arrivalRate: 20
+      rampTo: 100
+      name: Ramp up load
+    - duration: 30
+      arrivalRate: 200
+      name: Sustained load
+
+scenarios:
+  - name: "Fetch all products"
+    flow:
+      - get:
+          url: "/product/all"
